@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.moodle.moodlemobile" version="3.1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Moodle Mobile</name>
-  <description>Official Moodle Mobile app</description>
-  <author href="http://moodle.com" email="juan@moodle.com">Juan Leyva</author>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        xmlns:android = "http://schemas.android.com/apk/res/android"
+        id        = "za.co.collegesa.classroom"
+        versionCode = "2016"
+        version   = "3.1.2">
+    <name>CollegeSA Classroom</name>
+
+    <description>
+        Official CollegeSA Classroom Moodle App
+    </description>
+
+    <author href="http://collegesa.co.za" email="darek@collegesa.co.za">
+        Moodle Pty Ltd
+    </author>
   <content src="index.html"/>
   <access origin="*"/>
 
